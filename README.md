@@ -6,14 +6,18 @@ Groq is a cloud-based platform that provides access to a range of AI models, inc
 LLaMA 3.1-70B Model
 The LLaMA 3.1-70B model is a state-of-the-art language model developed by Meta AI. It is a transformer-based model that uses a large-scale dataset to learn patterns and relationships in language. The model is capable of generating high-quality text summaries, making it an ideal choice for the AI Summarizer App.
 Model Comparison Table
-API Provider	Models	Context Window	Cost/1M token	Latency	Score
-OpenAI	GPT 3.5 Turbo	16k	0.75	0.43	59
-Together	Gemma 2 27B	8k	0.8	0.48	78
-Groq	Llama 3.1 70B	128k	0.64	0.44	95
-MistralAI	Mistral 8x7B	33k	0.7	0.56	61
-Databricks	Llama 3.1 405B	128k	7.5	0.67	100
-Azure	Jamba 1.5 Large	256k	0.25	0.5	64
-Google	Gemini 1.5 Pro	2m	5.25	0.5	95
+# API Provider Comparison
+
+| API Provider | Models          | Context Window | Cost/1M token | Latency | Score |
+|--------------|-----------------|----------------|---------------|---------|-------|
+| OpenAI       | GPT 3.5 Turbo   | 16k            | 0.75          | 0.43    | 59    |
+| Together     | Gemma 2 27B     | 8k             | 0.8           | 0.48    | 78    |
+| Groq         | Llama 3.1 70B   | 128k           | 0.64          | 0.44    | 95    |
+| MistralAI    | Mistral 8x7B    | 33k            | 0.7           | 0.56    | 61    |
+| Databricks   | Llama 3.1 405B  | 128k           | 7.5           | 0.67    | 100   |
+| Azure        | Jamba 1.5 Large | 256k           | 0.25          | 0.5     | 64    |
+| Google       | Gemini 1.5 Pro  | 2m             | 5.25          | 0.5     | 95    |
+
 Pros and Cons of LLaMA 3.1-70B
 Pros:
 •	High Score: LLaMA 3.1-70B has a high score of 95, indicating its exceptional performance in language understanding and generation tasks.
@@ -44,6 +48,14 @@ The AI Summarizer App requires the following dependencies:
 •	docx
 •	openpyxl
 •	pyaudio
+•	wave
+•	pyttsx3
+•	threading
+•	os
+•	requests
+•	BeautifulSoup
+
+
 •	wave
 •	pyttsx3
 •	threading
